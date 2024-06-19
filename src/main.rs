@@ -1,9 +1,7 @@
-use std::fmt::format;
 use std::fs::{create_dir, File};
 use std::io::{BufWriter, Seek, SeekFrom, Write};
 use std::path::Path;
 use std::sync::Arc;
-use std::thread::current;
 use serde_json::{Deserializer, Value};
 use clap::Parser;
 
