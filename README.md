@@ -17,7 +17,7 @@ To install this CLI tool, you need to have Rust and Cargo installed on your mach
 Clone the repository and build the project:
 
 ```sh
-git clone [<repository_url>](https://github.com/Leikoe/jsplit.git)
+git clone https://github.com/Leikoe/jsplit.git
 cd jsplit
 cargo build --release
 ```
